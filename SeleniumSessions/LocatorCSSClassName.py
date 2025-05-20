@@ -39,7 +39,7 @@ input("Please enter to exit")
 # 1. ID
 element = driver.find_element(By.ID, "loginBtn")
 2. Name
-element = driver.find_element(By.NAME, "username")
+element = driver.find_element(By.NAME,  "username")
 3. Class Name
 # Use only one class (cannot handle multiple class names directly).
 element = driver.find_element(By.NAME, "login-input")

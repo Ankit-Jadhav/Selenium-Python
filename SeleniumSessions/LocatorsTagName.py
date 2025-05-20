@@ -20,7 +20,7 @@ print(title.text)
 links = driver.find_elements(By.TAG_NAME, "a")
 
 print(f"total links are {len(links)}")
-
+   
 for link in links:
     href= link.get_attribute("href") or "No href"
     link_text =link.text.strip()

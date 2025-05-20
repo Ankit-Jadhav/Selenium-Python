@@ -1,0 +1,3 @@
+#It’s a standard file in Python projects used to list all dependencies (libraries) your project needs to run.
+selenium
+webdriver-manager
