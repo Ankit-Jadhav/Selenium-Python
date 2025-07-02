@@ -21,7 +21,7 @@ select = Select(country_dropdown)
 #select.select_by_value("India")
 
 #how to check the dropdown is multiselect or not
-print(select.is_multiple)
+print(select.is_multiple)   
 
 #deselect the values also there opposite of select
 
